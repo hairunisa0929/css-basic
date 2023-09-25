@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Selector Reference</title>
+    <style>
+      span.bold {
+        font-weight: bold;
+      }
+
+      span.italic {
+        font-style: italic;
+      }
+
+      div .red {
+        color: red;
+      }
+
+      div > span {
+        color: blue;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <span class="bold">This is a bold text.</span>
+    <span class="italic">This is an italic text.</span>
+
+    <div>
+      <h1 class="red">Hello world</h1>
+    </div>
+
+    <div>
+        <span>Span inside a div</span>
+    </div>
+  </body>
+</html>
